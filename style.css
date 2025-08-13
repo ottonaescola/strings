@@ -37,3 +37,24 @@ textarea {
     resize: vertical;
     transition: border-color 0.3s;
 }
+textarea:focus {
+    outline: none;
+    border-color: #4a00e0;
+}
+button {
+    background: #4a00e0;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+button:hover {
+    background: #5e17eb;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(74, 0, 224, 0.3);
+}
